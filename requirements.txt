@@ -1,0 +1,5 @@
+requests
+'proxycurl-py[asyncio]'
+'fastapi[all]'
+gspread
+oauth2client
