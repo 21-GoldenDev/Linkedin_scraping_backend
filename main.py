@@ -53,4 +53,7 @@ async def get_employeeInfo(data: FormData):
 def get_contactInfo(employeeInfoList: List[EmloyeeProfile]):
     print(utz.fetch_contactInfo(EmployeeProfileList=employeeInfoList))
 
+@app.get("/test")
+def test():
+    print("OK")
 
